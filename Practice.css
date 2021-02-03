@@ -1,0 +1,86 @@
+h1{
+    color:rgb(0, 255, 170);
+    transition:color .5s ease-in-out;
+}
+
+.btn, #btn-clock{
+    cursor:pointer;
+}
+.form, 
+.greetings{
+    display:none;
+}
+.showing{
+    display:block;
+}
+
+@keyframes fadeIn{
+    from{
+        opacity:0;
+    }to{
+        opacity:1;
+    }
+}
+.bgImage{
+    display:flex;
+    position:absolute;
+    top:0;
+    left:0;
+    width:100%;
+    height:100%;
+    z-index:-1;
+    animation:fadeIn 1.5s linear;
+}
+.js-weather, .js-toDoList{
+    box-sizing:border-box;
+    width:50%;
+    background-color:rgba(88, 5, 5, 0.4);
+    color:mintcream;
+    text-shadow:rgba(69, 12, 226, 0.8);
+}
+.js-toDoList{
+    display:contents;
+}
+.js-greetings{
+    background-color:rgba(0, 0, 0, 0.5);
+    color:mintcream;
+    font-size:1.5em;
+    padding:1px 0.5em 1px 0.5em;
+    display:inline-block;
+}
+.js-toDoForm{
+    display:flex;
+}
+#myVideo {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+    z-index:-1;
+  }
+  
+  /* Add some content at the bottom of the video/page */
+  .content {
+    position: fixed;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.5);
+    color: #f1f1f1;
+    padding:20px 0.5em 20px 0.5em;
+  }
+  
+  /* Style the button used to pause/play the video */
+  #myBtn {
+    width: 200px;
+    font-size: 18px;
+    padding: 5px;
+    border: none;
+    background: #000;
+    color: #fff;
+    cursor: pointer;
+  }
+  
+  #myBtn:hover {
+    background: #ddd;
+    color: black;
+  }
