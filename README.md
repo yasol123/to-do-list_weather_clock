@@ -12,4 +12,3 @@ Background Image: MP4 video
  - The video can be paused by clicking "Pause" button.
 
 ![Demo](/demo.png)
-Format: ![Demo Image](url)
