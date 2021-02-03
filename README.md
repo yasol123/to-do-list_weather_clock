@@ -10,5 +10,6 @@ To-Do-List:
 Background Image: MP4 video
  - It has a sound and I recorded on the Christmas. 
  - The video can be paused by clicking "Pause" button.
-
+ 
+Actual Demo Image looks like the below.
 ![Demo](/demo.png)
