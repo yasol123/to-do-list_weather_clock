@@ -8,7 +8,8 @@ To-Do-List:
 - You can enter what you want to do.
 - You can delete the list you wrote.
 - Your local storage will remember what you wrote on the to-do lists.
-- It also shows your current location, time and weather by using the related API calls
+- It shows your current location by your localstorage.
+- Also it shows your local time and weather by using the related API calls
 
 Background Image: MP4 video
  - It has a sound and I recorded on the Christmas. 
